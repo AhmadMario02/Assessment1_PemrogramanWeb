@@ -32,7 +32,7 @@
     ?>
     <script>
         function redirect(){
-            alert("waittt");
+            alert("wait a moment...");
         }
     </script>
     <?php include "footer.php" ?>
