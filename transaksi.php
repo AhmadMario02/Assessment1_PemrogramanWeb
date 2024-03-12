@@ -43,9 +43,9 @@ if(isset($_POST['btnSubmit'])){
     $h1 = $_POST['barang1'];
     $h2 = $_POST['barang2'];
     $h3 = $_POST['barang3'];
-    $hb1 = $_POST['barang1'] * $q1;
-    $hb2 = $_POST['barang2'] * $q2;
-    $hb3 = $_POST['barang3'] * $q3;
+    $hb1 = $h1 * $q1;
+    $hb2 = $h2 * $q2;
+    $hb3 = $h3 * $q3;
     if($_POST['member']=="true"){
         $disc = ($hb1 + $hb2 + $hb3)*0.05;
     } else $disc = 0;
