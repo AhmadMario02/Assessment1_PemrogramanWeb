@@ -54,9 +54,9 @@ if(isset($_POST['btnSubmit'])){
     $kembalian = $cash - $th;
     // $tl = date_create($_POST['bd']);
     // $tanggal = date_format($tl, "l, d F Y");
-    echo "<p>Kode Transaksi =$kode</p>";
-    echo "<p>Tanggal Transaksi =$tgl</p>";
-    echo "<p>Customer =$pel</p>";
+    echo "<p>Kode Transaksi = $kode</p>";
+    echo "<p>Tanggal Transaksi = $tgl</p>";
+    echo "<p>Customer = $pel</p>";
     echo "<p>Detail Pembelian:</p>";
     echo '<table class="table table-striped table-hover">
     <tr>
